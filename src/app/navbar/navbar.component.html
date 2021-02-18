@@ -1,0 +1,34 @@
+<div>
+  <mat-drawer-container class="example-container" [hasBackdrop]="true">
+    <mat-drawer class="applicationColor" #drawer [mode]="'over'">
+      <div class="header" >
+        <mat-icon (click)="drawer.toggle()" class="clickable" matRipple>menu</mat-icon>
+      </div>
+      <mat-divider></mat-divider>
+      <div  class="menu-item clickable" (click)="drawer.toggle()" [routerLink]="['']">
+        <mat-icon class="align-vertically move">home</mat-icon> Home <mat-icon class="align-vertically goRight ">keyboard_arrow_right</mat-icon>
+      </div>
+      <mat-divider></mat-divider>
+      <div class="menu-item clickable" (click)="drawer.toggle()" [routerLink]="['/contacts']">
+        <mat-icon class="align-vertically move" >phone</mat-icon>Contatti <mat-icon class="align-vertically goRight">keyboard_arrow_right</mat-icon>
+      </div>
+      <mat-divider></mat-divider>
+    </mat-drawer>
+    <mat-drawer-content>
+      <mat-toolbar class="applicationColor" >
+        <mat-icon matRipple class="clickable " (click)="drawer.toggle()">menu</mat-icon>
+        <div style="width: 100%">
+
+          <img style="float: right"  src="assets/FyWay.png">
+        </div>
+      </mat-toolbar>
+      <div class="paddingContent">
+        <router-outlet></router-outlet>
+      </div>
+
+    </mat-drawer-content>
+  </mat-drawer-container>
+
+
+
+</div>

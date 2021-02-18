@@ -1,0 +1,15 @@
+.contacts{
+  max-height: 30em;
+  max-width: 75em;
+  margin: auto;
+  margin-top: 3em;
+}
+
+.send-icon {
+  zoom: 83%;
+  vertical-align: -7px;
+  margin-left: 14px;
+}
+.cursorDisabled{
+  cursor: not-allowed;
+}

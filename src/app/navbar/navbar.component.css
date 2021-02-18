@@ -1,0 +1,39 @@
+mat-drawer-container {
+  height: 100vh;
+}
+
+.header {
+  padding: 19px 15em 15px 15px;
+}
+
+p {
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.menu-item {
+  padding: 15px;
+  font-weight: bold;
+}
+
+.menu-item:hover {
+  background-color: #00000026;
+}
+
+.align-vertically {
+  vertical-align: -5px;
+}
+
+.goRight {
+  float: right;
+}
+
+.move {
+  margin-right: 10px;
+}
+
+.bookLogo {
+  zoom: 20%;
+  margin-right: 6em;
+}
+

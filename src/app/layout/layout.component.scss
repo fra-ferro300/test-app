@@ -1,0 +1,15 @@
+@import "src/unicorn.scss";
+.resize{
+  color: $main-color;
+  zoom: 72%;
+}
+h6{
+  color: $main-color;
+}
+.card{
+  min-height: 25em;
+  box-shadow: 0px 0px 15px grey;
+}
+.row{
+  margin-right: 0!important;
+}

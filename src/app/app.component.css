@@ -1,0 +1,10 @@
+.loader{
+  position: absolute;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+}
+.overlay{
+background-color: yellow;
+  z-index: 100000;
+}
